@@ -1,0 +1,62 @@
+/* RESET CSS */
+:root {
+    --main-font: sans-serif;
+    --font-size: 16px;
+    --main-color: #fff;
+    --second-color: #222;
+    --main-modal-color: rgba(247,222,30,.85);
+    --second-modal-color: rgba(131, 127, 127, 0.85);
+    --container-width : 1200px;
+}
+html {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: var(--main-color);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cabecera{
+    background-image: url(/assets/img/COVID-Banner.jpg);
+    height: 200px;
+}
+.cabecera h2{
+    font-size: 4rem;
+}
+h1{
+    text-align: center;
+    text-shadow: 6px 6px 6px var(--second-color);
+}
+p i{
+    font-size: 2em;
+}
+.carousel img{
+    height: 350px;
+}
+section{
+    width: 100%;
+    max-width: var(--container-width);
+    min-height: 100vh;
+}
+.subtitulo{
+    padding-top: 2em;
+    text-align: center;
+    text-shadow:  6px 6px 6px var(--second-color);
+}
+footer{
+    background-image: url(/assets/img/img-footer.png);
+    height: 18em;
+}
